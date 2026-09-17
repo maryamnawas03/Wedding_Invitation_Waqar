@@ -1,0 +1,87 @@
+import { WeddingDetails } from "@/types/wedding";
+
+export const weddingData: WeddingDetails = {
+  groomName: "Akram",
+  brideName: "Maryam",
+  eventTitle: "Wedding Reception",
+  isoDate: "2026-08-08T19:30:00+05:30",
+  displayDate: "08 August 2026",
+  timeRange: "7:30 PM Onwards",
+  venue: {
+    name: "Oak Ray Regency",
+    address: "Deveni Rajasinghe Mawatha",
+    city: "Kandy",
+    googleMapsUrl: "https://maps.google.com/?q=Oak+Ray+Regency+Kandy",
+    phone: "+94812389141",
+  },
+  timeline: [
+    {
+      id: "arrival",
+      time: "8:00 PM",
+      title: "Welcoming of Guests",
+      description: "We look forward to welcoming you as the celebrations begin.",
+      iconName: "UserCheck",
+    },
+    {
+      id: "entry",
+      time: "8:30 PM",
+      title: "Grand Entrance",
+      description: "Welcoming the bride and groom, Akram & Maryam.",
+      iconName: "Sparkles",
+    },
+    {
+      id: "dinner",
+      time: "9:00 PM",
+      title: "Dinner Reception",
+      description: "Exquisite banquet feast served for our guests.",
+      iconName: "Utensils",
+    },
+    {
+      id: "coffee",
+      time: "10:30 PM",
+      title: "Late Night Coffee",
+      description: "Warm beverages and conversation to conclude a beautiful evening.",
+      iconName: "Coffee",
+    },
+  ],
+  dressThemes: [
+    {
+      category: "Ladies & Kids",
+      description: "Nude Colours",
+      colors: [
+        { name: "Champagne", hex: "#E8C5A8", borderHex: "#DEC3AD" },
+        { name: "Beige", hex: "#D5BFA7", borderHex: "#CBB39C" },
+        { name: "Ivory", hex: "#F4ECE1", borderHex: "#EDE3D4" },
+        { name: "Taupe", hex: "#A9927D", borderHex: "#9B836F" },
+        { name: "Mauve", hex: "#B08B90", borderHex: "#A27E83" },
+        { name: "Dusty Rose", hex: "#C08A8B", borderHex: "#B47C7D" },
+        { name: "Blush Pink", hex: "#E8C1B7", borderHex: "#DCB5AB" },
+        { name: "Warm Nude", hex: "#D2B498", borderHex: "#C6A88C" },
+        { name: "Sage Grey", hex: "#B2B9AD", borderHex: "#A6ADA1" },
+        { name: "Silver Grey", hex: "#D1D3D2", borderHex: "#C5C7C6" },
+        { name: "Pearl Grey", hex: "#C0C4C8", borderHex: "#B4B8BC" },
+        { name: "Soft Lilac", hex: "#C5B4C7", borderHex: "#B9A8BB" },
+        { name: "Rose Gold", hex: "#D4A390", borderHex: "#C89784" },
+        { name: "Mocha", hex: "#8B7365", borderHex: "#7D6659" },
+        { name: "Greige", hex: "#A79C93", borderHex: "#998F86" },
+      ],
+    },
+    {
+      category: "Gentlemen",
+      description: "Colours",
+      colors: [
+        { name: "Charcoal Grey", hex: "#3A3F42", borderHex: "#2E3335" },
+        { name: "Graphite Grey", hex: "#5A6065", borderHex: "#4E5459" },
+        { name: "Dark Steel Grey", hex: "#4E5862", borderHex: "#424C56" },
+        { name: "Black", hex: "#1A1A1A", borderHex: "#0D0D0D" },
+        { name: "Navy Blue", hex: "#2B3542", borderHex: "#1F2936" },
+        { name: "Deep Midnight Blue", hex: "#1E252D", borderHex: "#121921" },
+      ],
+    },
+  ],
+  quranVerse: {
+    arabic: "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً",
+    english: "And among His Signs is this, that He created for you mates from among yourselves, that ye may dwell in tranquility with them, and He has put love and mercy between your hearts.",
+    reference: "Surah Ar-Rum (30:21)",
+  },
+};
